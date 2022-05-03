@@ -21,7 +21,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Flutter GridView"),
+          title: Text("CFE Móvil"),
         ),
         body: GridView.builder(
           itemCount: images.length,
